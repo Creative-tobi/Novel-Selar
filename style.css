@@ -166,3 +166,10 @@ nav a {
 .ani33{
   top: 550%;
 }
+
+.third{
+  color: white;
+  background-color: rgb(109, 0, 103);
+  text-align: center;
+  padding: 40px 0;
+}

@@ -296,3 +296,38 @@ nav a {
   justify-content: space-between;
   gap: 200px;
  } */
+
+ .last{
+  background-color:rgb(109, 0, 103);
+  margin: 0 40px;
+  border-radius: 12px;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+  justify-content: center;
+  /* padding-top: 20px; */
+  
+ }
+ /* .last h1{
+  padding-top: 20px;
+ } */
+ 
+ .free{
+  padding: 16px;
+  border-radius: 12px;
+  border: none;
+  background-color: white;
+  color: rgb(109, 0, 103);
+
+ }
+ .sub{
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid white;
+  color: white;
+  background-color: rgb(109, 0, 103);
+ }
+ footer{
+  display: flex;
+  line-height: 30px;
+ }

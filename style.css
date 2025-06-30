@@ -171,5 +171,31 @@ nav a {
   color: white;
   background-color: rgb(109, 0, 103);
   text-align: center;
-  padding: 40px 0;
+  padding: 20px 0 0 0;
+}
+#support{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+}
+.pay{
+  position: absolute;
+  left: 0;
+  top: 697%;
+}
+.pay2{
+  position: absolute;
+  right: 0;
+  top: 568vh;
+}
+
+.pay3{
+  position: absolute;
+  left: 40px;
+  top: 590%;
+}
+.pay4{
+  position: absolute;
+  right: 200px;
+  top: 680vh;
 }

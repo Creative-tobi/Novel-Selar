@@ -82,3 +82,40 @@ function type() {
 }
 
 type();
+
+const tool = [
+  {
+    image: '<img src="/images/affilate.svg" alt=""> ',
+    heading: "Affiliates",
+    desc: "Set up your own affiliate marketing system, and give a commission for anyone that facilitates a sale for your store.",
+    link: '<a href="#" >Learn More</a>',
+  },
+
+  {
+    image: '<img src="/images/page.svg" alt=""> ',
+    heading: "Sales Page",
+    desc: `Create custom sales/landing pages for your products. Descriptive sales pages drive more conversions.
+`,
+    link: '<a href="#" >Learn More</a>',
+  },
+
+  {
+    image: '<img src="/images/follow.svg" alt=""> ',
+    heading: "Automated Follow-ups",
+    desc: `Never miss a prospective buyer with Selar's automated follow ups. Proven to drive conversions by at least 30%.`,
+    link: '<a href="#" >Learn More</a>',
+  },
+];
+
+let right = tool
+.map((item)=> `
+  <div>
+  <p>${item.image}</P>
+  <h2>${item.heading}</h2>
+  <p>${item.desc}</p>
+  <p>${item.link}</p>
+
+`
+)
+.join("");
+document.getElementById("tools").innerHTML = right;

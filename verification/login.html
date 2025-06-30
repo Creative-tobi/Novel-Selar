@@ -1,25 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<link rel="stylesheet" href="verify.css">
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in- Saler</title>
+    <link rel="icon" type="image/x-icon" href="/images/fav.ico" />
+    <link rel="stylesheet" href="verify.css" />    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  </head>
+  <body>
     <nav>
-        <img src="../images/selar-logo-small.png" alt="">
-        <ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="../productPage/product.html">Product</a></li>
-            <li><a href="../previewpage/preview.html">Preview</a></li>
-            <li><a href="/verification/login.html">Log in</a></li>
-           <li><a href="#"><i class="fa-solid fa-cart-plus"></i></a></li>
-        </ul>
-        <button class="btn"><a href="/verification/signup.html" style="color:  rgb(138, 1, 165);" >Sign up</a></button>
+      <img src="../images/selar-logo-small.png" alt="" />
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="../productPage/product.html">Product</a></li>
+        <li><a href="../previewpage/preview.html">Preview</a></li>
+        <li><a href="/verification/login.html">Log in</a></li>
+        <li>
+          <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+        </li>
+      </ul>
+      <button class="btn">
+        <a href="/verification/signup.html">Sign up</a>
+      </button>
     </nav>
-    
+    <div class="card">
+      <h2 style="text-align: center;">Log in to Selar</h2 >
+      <p style="text-align: center;">
+        Don't have an account?
+        <a href="/verification/signup.html" style="text-decoration: none"
+          >Create one for free.</a
+        >
+      </p>
+      <br />
+      <label for="">Username or E-mail</label><br />
+      <input type="text" placeholder="Username or E-mail" id="name" /><br />
+      <p id="mail"></p>
+
+      <label for="">Password</label><br />
+      <input type="text" placeholder="****" id="pass" /><br />
+      <p id="word"></p>
+      <p style="text-align: right;">
+        <a href="/verification/forgot.html" style="text-decoration: none;" 
+          >Forgotten your password?</a
+        >
+      </p> <br>
+      <button id="login" onclick="submit ()">login</button>
+    </div>
 
     <script src="verify.js"></script>
-</body>
+  </body>
 </html>

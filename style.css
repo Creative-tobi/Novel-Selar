@@ -217,7 +217,9 @@ nav a {
 
 .more{
   text-align: center;
-  padding: 28px;
+ font-size: 40px;
+ font-weight: 400;
+  
 }
 .item{
   background-color: rgb(184, 217, 255);

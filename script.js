@@ -94,28 +94,31 @@ const tool = [
   {
     image: '<img src="/images/page.svg" alt=""> ',
     heading: "Sales Page",
-    desc: `Create custom sales/landing pages for your products. Descriptive sales pages drive more conversions.
-`,
+    desc: "Create custom sales/landing pages for your products. Descriptive sales pages drive more conversions.",
     link: '<a href="#" >Learn More</a>',
   },
 
   {
     image: '<img src="/images/follow.svg" alt=""> ',
     heading: "Automated Follow-ups",
-    desc: `Never miss a prospective buyer with Selar's automated follow ups. Proven to drive conversions by at least 30%.`,
+    desc: "Never miss a prospective buyer with Selar's automated follow ups. Proven to drive conversions by at least 30%.",
     link: '<a href="#" >Learn More</a>',
   },
 ];
 
 let right = tool
-.map((item)=> `
-  <div>
+  .map(
+    (item) => `
+  <div class="tools-class">
+  
+  <div class=item>
   <p>${item.image}</P>
   <h2>${item.heading}</h2>
   <p>${item.desc}</p>
   <p>${item.link}</p>
+  </div>
 
 `
-)
-.join("");
+  )
+  .join("");
 document.getElementById("tools").innerHTML = right;

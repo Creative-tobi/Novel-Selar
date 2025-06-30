@@ -199,3 +199,30 @@ nav a {
   right: 200px;
   top: 680vh;
 }
+
+.tools-class{
+  
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    margin: 0 20px;
+    line-height: 25px;
+  
+}
+
+.forth{
+  background-color: rgb(236, 245, 255);
+  overflow: hidden;
+}
+
+.more{
+  text-align: center;
+  padding: 28px;
+}
+.item{
+  background-color: rgb(184, 217, 255);
+  padding: 40px;
+  width: 300px;
+ line-height: 30px;
+ border-radius: 12px;
+}

@@ -2,6 +2,8 @@ let nam = document.getElementById("name");
 let mail = document.getElementById("mail");
 let pass = document.getElementById("pass");
 let word = document.getElementById("word");
+let last = document.getElementById("last");
+let output = document.getElementById("output");
 
 function submit (){
     if ((nam.value).includes("@") && (nam.value).includes(".")){
@@ -22,6 +24,14 @@ function submit (){
       word.innerHTML =
         "Password should contain at least 8 characters, 1 uppercase letter, 1 lowercase letter, 1 number, and 1 special character";
       word.style.color = "red";
+    }
+
+    if ((last.value.length < 6 ) || (last.value.length > 15 )){
+        output.innerHTML = "";
+        
+    } else {
+        output.innerHTML = "Name must be less than 6 and greather than 15 characters";
+        output.style.color = "red";
     }
 
 
@@ -59,3 +69,5 @@ let auto = sign
 
 .join("");
 document.getElementById("list").innerHTML = auto;
+
+

@@ -50,15 +50,32 @@ nav img {
     padding: 10px 28px;
     border-radius: 6px;
     border: none;
-    width: 300px;
+    width: 350px;
     outline: 1px solid rgba(107, 107, 107, 0.19);
 }
 
 #login{
     color: white;
     background-color: rgb(109, 0, 103);
-    padding: 10px 28px;
-    width: 300px;
+    padding: 12px 28px;
+    width: 400px;
     border-radius: 6px;
     border: none;
+}
+
+.list-class{
+    display: flex;
+    border: 1px solid rgba(107, 107, 107, 0.19); 
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 2px 0 rgba(117, 117, 117, 0.2);
+
+}
+
+#list{
+    line-height: 20px;
+}
+.icon{
+    color: rgb(109, 0, 103);
 }

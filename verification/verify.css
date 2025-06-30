@@ -79,3 +79,18 @@ nav img {
 .icon{
     color: rgb(109, 0, 103);
 }
+.store img{
+    width: 700px;
+    background-color: rgb(109, 0, 103);
+    height: 820px;
+    
+}
+.general{
+    display: flex;
+}
+
+@media(max-width: 780px){
+    .store{
+        display: none;
+    }
+}

@@ -36,7 +36,7 @@ nav ul {
 } */
 
 .hero{
-    width: 200vh;
+    width: 100%;
 }
 
 .bg4{
@@ -101,6 +101,7 @@ nav a {
 #sale{
     padding: 0 350px;
     color: white;
+    margin: auto;
 }
 
 #start{
@@ -333,4 +334,29 @@ nav a {
   justify-content: space-between;
   margin: 20px;
   line-height: 30px;
+ }
+
+
+ @media (max-width: 1120px){
+  .hero{
+    width: 100%;
+  }
+  .support{
+    display: none;
+  }
+  .dot, .dot2, .dot3, .dot4, .pay, .pay2, .pay3, .pay4, .ani1, .ani33{
+    top: 600vh;
+    display: none;
+  }
+  #sale{
+    padding: 0 200px;
+  }
+  .third h1{
+    padding: 0 200px;
+  }
+  /* #tools{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  } */
  }

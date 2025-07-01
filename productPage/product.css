@@ -67,3 +67,28 @@
     border-radius: 12px;
     box-shadow: 0 4px 8px 0 rgba(117, 117, 117, 0.2), 0 6px 20px 0 rgba(107, 107, 107, 0.19);
   }
+
+  #preview{
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(117, 117, 117, 0.2), 0 6px 20px 0 rgba(107, 107, 107, 0.19);
+    max-width: 500px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+  }
+
+  #author{
+    color: rgb(109, 0, 103);
+    line-height: 15px;
+  }
+  .desc{
+    text-align: left;
+  }
+
+
+  @media(max-width: 780px){
+    #preview{
+        max-width: fit-content;
+    }
+  }

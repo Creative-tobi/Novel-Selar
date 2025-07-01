@@ -48,24 +48,24 @@ document.getElementById("demo").innerHTML = products;
 const words = ["audiences", "fans", "followers" ,"supporters"];
 const wordSpan = document.getElementById("word");
 
-let word = 0; // which word we are on
-let letter = 0; // which letter we are on
+let word = 0; 
+let letter = 0; 
 let deleting = false;
 
 function type() {
   let currentWord = words[word];
 
   if (deleting) {
-    letter--; // remove a letter
+    letter--; 
   } else {
-    letter++; // add a letter
+    letter++; 
   }
 
   wordSpan.textContent = currentWord.slice(0, letter);
 
   if (!deleting && letter === currentWord.length) {
     deleting = true;
-    setTimeout(type, 1000); // wait before deleting
+    setTimeout(type, 1000); 
     return;
   }
 

@@ -337,23 +337,126 @@ nav a {
  }
 
 
- @media (max-width: 1120px){
+ @media (max-width: 1024px){
   .hero{
     width: 100%;
   }
   .support{
     display: none;
   }
-  .dot, .dot2, .dot3, .dot4, .pay, .pay2, .pay3, .pay4, .ani1, .ani33{
-    top: 600vh;
+   .ani1, .ani33{
     display: none;
+  } 
+
+  .part1{
+    margin: 40px 0 0 5px;
+    text-align: left;
+    /* padding-top: 50px; */
+  
   }
+
+  .dot{
+    top: 1055vh;
+    left: 0;
+   }
+   .dot2{
+     top: 1055vh;
+     right: 40px;
+    }
+    .dot3{
+     top: 1150vh;
+     right: 40px;
+    }
+    .dot4{
+     top: 1055vh;
+     left: 500px;
+    }
   #sale{
     padding: 0 200px;
   }
   .third h1{
     padding: 0 200px;
   }
+
+  .pay{
+    position: absolute;
+    left: 0;
+    top: 825%;
+  }
+  .pay2{
+    position: absolute;
+    right: 0;
+    top: 672vh;
+  }
+  
+  .pay3{
+    position: absolute;
+    left: 40px;
+    top: 690%;
+  }
+  .pay4{
+    position: absolute;
+    right: 200px;
+    top: 800vh;
+  }
+  
+  /* #tools{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  } */
+ }
+
+ /* another screen */
+
+ @media (max-width: 1840px){
+  .ani1{
+    /* display: none; */
+    top: 500%;
+  } 
+.ani33{
+  top: 550%;
+}
+
+
+  .dot{
+    top: 880vh;
+    left: 0;
+   }
+   .dot2{
+     top: 880vh;
+     right: 40px;
+    }
+    .dot3{
+     top: 950vh;
+     right: 40px;
+    }
+    .dot4{
+     top: 880vh;
+     left: 500px;
+    }
+  .pay{
+    position: absolute;
+    left: 0;
+    top: 684%;
+  }
+  .pay2{
+    position: absolute;
+    right: 0;
+    top: 569vh;
+  }
+  
+  .pay3{
+    position: absolute;
+    left: 40px;
+    top: 580%;
+  }
+  .pay4{
+    position: absolute;
+    right: 200px;
+    top: 660vh;
+  }
+  
   /* #tools{
     width: 100%;
     margin: auto;

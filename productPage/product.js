@@ -3,7 +3,7 @@ document.getElementById("demo").innerHTML =
 document.getElementById("first").innerHTML =
   "<h1>Free novels at your fingertips</h1>";
 
-// let but = document.getElementById("but").innerHTML;
+
 
 const car = [
   {
@@ -204,6 +204,5 @@ prebtn.forEach(button => {
 
 
  //cart
-
  
-
+ 

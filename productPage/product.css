@@ -47,7 +47,7 @@
     line-height: 30px;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   }
-  .main button{
+  .main button, .but button{
     padding: 10px 30px;
     border-radius: 12px;
     border: none;

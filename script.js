@@ -122,3 +122,13 @@ let right = tool
   )
   .join("");
 document.getElementById("tools").innerHTML = right;
+
+
+let navlink = document.getElementById("navlink");
+function show(){
+  navlink.style.right = "0"
+
+}
+function hide() {
+  navlink.style.right = "-200px";
+}

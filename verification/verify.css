@@ -35,6 +35,13 @@ nav img {
   color: white;
   text-decoration: none;
 }
+.material-symbols-outlined{
+  font-size: 50px; border: 1px solid white; border-radius: 60%; padding: 12px; 
+        color: white; background-color: rgb(109, 0, 103);
+        position: fixed;
+        right: 20px;
+        bottom: 100px;
+}
 
 .card {
   margin: auto;
@@ -89,8 +96,14 @@ nav img {
     display: flex;
 }
 
-@media(max: 780px){
-    .store{
+@media(max-width: 780px){
+    .storeimg{
         display: none;
+    }
+    nav ul{
+      gap: 20px;
+    }
+    .card input, .card, #login{
+      width: 250px;
     }
 }

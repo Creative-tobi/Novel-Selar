@@ -9,6 +9,13 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+.material-symbols-outlined{
+  font-size: 50px; border: 1px solid white; border-radius: 60%; padding: 12px; 
+        color: white; background-color: rgb(109, 0, 103);
+        position: fixed;
+        right: 20px;
+        bottom: 100px;
+}
 
 .first {
   background-color: rgb(109, 0, 103);
@@ -465,4 +472,10 @@ nav a {
     margin: auto;
     text-align: center;
   } */
+ }
+ /* 780px screen */
+ @media(max-width: 780px){
+  nav ul{
+    gap: 20px;
+  }
  }

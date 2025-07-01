@@ -68,6 +68,13 @@
     box-shadow: 0 4px 8px 0 rgba(117, 117, 117, 0.2), 0 6px 20px 0 rgba(107, 107, 107, 0.19);
   }
 
+  .material-symbols-outlined{
+    font-size: 50px; border: 1px solid white; border-radius: 60%; padding: 12px; 
+          color: white; background-color: rgb(109, 0, 103);
+          position: fixed;
+          right: 20px;
+          bottom: 100px;
+  }
   #preview{
     margin: auto;
     text-align: center;
@@ -91,4 +98,6 @@
     #preview{
         max-width: fit-content;
     }
-  }
+    nav ul{
+      gap: 20px;
+    }

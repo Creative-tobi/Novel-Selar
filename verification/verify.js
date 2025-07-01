@@ -70,4 +70,12 @@ let auto = sign
 .join("");
 document.getElementById("list").innerHTML = auto;
 
+let navlink = document.getElementById("navlink");
+function show() {
+  navlink.style.right = "0";
+}
+function hide() {
+  navlink.style.right = "-200px";
+}
+
 

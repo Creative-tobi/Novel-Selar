@@ -118,6 +118,9 @@ nav a {
   width: 80px;
 
 }
+#setup{
+  margin-left: 20px;
+}
 .img1, .img2, .img3{
   position: relative;
 }

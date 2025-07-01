@@ -53,11 +53,11 @@
     border: none;
   }
 
-  #but{
+  .add-btn{
     background-color: rgb(109, 0, 103);
     color: white;
   }
-  #but2{
+  .pre-btn{
     background-color: white;
     outline: 1px solid rgb(109, 0, 103);
     color: rgb(109, 0, 103);

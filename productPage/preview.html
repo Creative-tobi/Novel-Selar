@@ -26,6 +26,24 @@
         </button>
       </nav>
 
-    <script src="product.js"></script>
+      <div id="preview"></div>
+
+  <script>
+    const novel = JSON.parse(localStorage.getItem("selectedNovel"));
+    if (novel) {
+      document.getElementById("preview").innerHTML = `
+        <div> 
+          <div>
+            <p>${novel.image}</p>
+            <h2>${novel.title}</h2>
+            <p>${novel.author}</p>
+          </div>
+          <p>${novel.desc}</p>
+        </div>
+      `;
+    } else {
+      document.getElementById("preview").innerHTML = "No preview available.";
+    }
+  </script>
 </body>
 </html>

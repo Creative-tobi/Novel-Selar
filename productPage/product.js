@@ -159,6 +159,7 @@ addbtn.forEach(button =>{
         let cart = JSON.parse(localStorage.getItem("cart")) || [];
         cart.push(novel);
         localStorage.setItem("cart", JSON.stringify(cart));
+        window.location.href = "../productPage/cart.html";
     })
 
 }) 

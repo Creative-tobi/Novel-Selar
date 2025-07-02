@@ -105,7 +105,10 @@ nav img {
     nav ul{
       gap: 20px;
     }
-    .card input, .card, #login{
-      width: 250px;
+    .card, #login{
+      width: 200px;
+    }
+    .card input{
+      width: 150px;
     }
 }

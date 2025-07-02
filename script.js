@@ -34,7 +34,7 @@ const data = [
 let products = data 
 .map(
     (item) => `
-    <div>
+    <div class="me">
         <p>${item.image}</P>
         <h3>${item.heading}</h3>
         <p>${item.desc}</p>
@@ -144,7 +144,7 @@ const testimonials = [
     text: "Fantastic user experience. Downloading novels has never been easier.",
     name: "John Smith",
     occupation: "Freelance Writer",
-    image: `<img src="/images/tri.PNG" alt="John Smith">`,
+    image: `<img src="/images/trici.PNG" alt="John Smith">`,
   },
   {
     text: "Highly recommend this platform to all book lovers.",

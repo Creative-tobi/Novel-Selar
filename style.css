@@ -39,6 +39,10 @@
   
 }
 
+.testimonial-image img{
+  width: 150px;
+}
+
 
 
 .six{
@@ -83,10 +87,13 @@ nav ul {
   list-style: none;
 }
 
-/* .bg{
-    position: absolute;
-    top: 100px;
-} */
+.nav-btn{
+    margin: 6px;
+    border: none;
+    outline: 1px thin solid;
+    border-radius: 100%;
+    padding: 10px;
+}
 
 .hero{
     width: 100%;
@@ -412,19 +419,19 @@ nav a {
   }
 
   .dot{
-    top: 1055vh;
+    top: 2000vh;
     left: 0;
    }
    .dot2{
-     top: 1055vh;
+     top: 2000vh;
      right: 40px;
     }
     .dot3{
-     top: 1150vh;
+     top: 2000vh;
      right: 40px;
     }
     .dot4{
-     top: 1055vh;
+     top: 1000vh;
      left: 500px;
     }
   #sale{
@@ -476,11 +483,11 @@ nav a {
 
 
   .dot{
-    top:940vh;
+    top:942vh;
     left: 0;
    }
    .dot2{
-     top: 940vh;
+     top: 942vh;
      right: 40px;
     }
     .dot3{
@@ -488,7 +495,7 @@ nav a {
      right: 40px;
     }
     .dot4{
-     top: 940vh;
+     top: 942vh;
      left: 500px;
     }
   .pay{
@@ -524,11 +531,77 @@ nav a {
   nav ul{
     gap: 20px;
   }
-  /* .fa-solid, .fa-bars, .fa-solid, .fa-xmark{
-    display: flex;
-  
-  } */
-  /* #navlink{
+   /* #navlink{
     display: none;
-  } */
+  }  */
+  #sale{
+    padding: 0 0;
+  }
+  #second{
+    margin-top: 200px;
+  }
+  #second h2{
+    padding: 20px 12px;
+  }
+  #setup{
+    display: block;
+    margin-left: 12px;
+  }
+  #setup img{
+    width: 400px;
+  }
+  .tools-class{
+    display: grid;
+    grid-template-columns: auto;
+    /* margin-left: 20%; */
+    /* text-align: center; */
+    gap: 20px;
+  }
+
+  .dot, .dot2, .dot3, .dot4{
+    display: none;
+  }
+  .part{
+    margin: 0x ;
+    display: block;
+  }
+  .part1 p{
+    padding-right: 0px;
+    padding: 0;
+    margin: 0;
+  }
+ }
+
+ /* smaller screen */
+ @media(max-width: 500px){
+ .first{
+  height: 740px;
+ }
+  nav img {
+  width: 40px;
+ } 
+ nav ul{
+  gap: 10px;
+ }
+ #demo{
+  display: block;
+ }
+ .testimonial-image{
+  width: 50px;
+ }
+ .testimonial-card {
+  width: 200px;
+  display: block;
+  
+}
+.six{
+  height: 450px;
+}
+#part{display: block;}
+.book{
+  margin: 0 20px;
+}
+.setup{
+  display: block;
+}
  }

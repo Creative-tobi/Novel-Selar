@@ -9,6 +9,48 @@
 
 }
 
+/* Keep existing styles, then add: */
+
+.testimonial-card {
+  position: relative;
+  background: #fff;
+  width: 500px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  transition: transform 0.7s ease;
+  margin: auto;
+  /* text-align: center; */
+  /* margin-top: 20px; */
+}
+
+.testimonial-card.flip-next {
+  transform: rotateY(-180deg);
+}
+
+.testimonial-card.flip-prev {
+  transform: rotateY(180deg);
+}
+
+.testimonial-section {
+  perspective: 1000px;
+  
+}
+
+
+
+.six{
+  background-color: rgb(109, 0, 103);
+  height: 350px;
+  /* align-items: center; */
+  padding-top: 20px;
+
+  /* margin: auto;
+  text-align: center; */
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -434,19 +476,19 @@ nav a {
 
 
   .dot{
-    top: 880vh;
+    top:940vh;
     left: 0;
    }
    .dot2{
-     top: 880vh;
+     top: 940vh;
      right: 40px;
     }
     .dot3{
-     top: 950vh;
+     top: 990vh;
      right: 40px;
     }
     .dot4{
-     top: 880vh;
+     top: 940vh;
      left: 500px;
     }
   .pay{

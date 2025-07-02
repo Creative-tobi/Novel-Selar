@@ -132,3 +132,70 @@ function show(){
 function hide() {
   navlink.style.right = "-200px";
 }
+
+const testimonials = [
+  {
+    text: "This site is amazing! I love the selection of free novels.",
+    name: "Jane Doe",
+    occupation: "Book Blogger",
+    image: `<img src="/images/steve.PNG" alt="Jane Doe">`,
+  },
+  {
+    text: "Fantastic user experience. Downloading novels has never been easier.",
+    name: "John Smith",
+    occupation: "Freelance Writer",
+    image: `<img src="/images/tri.PNG" alt="John Smith">`,
+  },
+  {
+    text: "Highly recommend this platform to all book lovers.",
+    name: "Sarah Johnson",
+    occupation: "Editor",
+    image: `<img src="/images/steve.PNG" alt="Sarah Johnson">`,
+  },
+];
+
+let index = 0;
+
+const textEl = document.getElementById("testimonial-text");
+const nameEl = document.getElementById("testimonial-name");
+const occupationEl = document.getElementById("testimonial-occupation");
+const imageEl = document.getElementById("testimonial-image");
+const prevBtn = document.getElementById("prev-btn");
+const nextBtn = document.getElementById("next-btn");
+const card = document.getElementById("testimonial-card");
+
+function showTestimonial(i) {
+  textEl.textContent = testimonials[i].text;
+  nameEl.textContent = testimonials[i].name;
+  occupationEl.textContent = testimonials[i].occupation;
+  imageEl.innerHTML = testimonials[i].image;
+}
+
+showTestimonial(index);
+
+function flip(direction) {
+  // Add flip class
+  if (direction === "next") {
+    card.classList.add("flip-next");
+  } else {
+    card.classList.add("flip-prev");
+  }
+
+  // After animation, reset transform & show next testimonial
+  setTimeout(() => {
+    card.classList.remove("flip-next");
+    card.classList.remove("flip-prev");
+
+    showTestimonial(index);
+  }, 700); // match transition time
+}
+
+prevBtn.addEventListener("click", () => {
+  index = (index - 1 + testimonials.length) % testimonials.length;
+  flip("prev");
+});
+
+nextBtn.addEventListener("click", () => {
+  index = (index + 1) % testimonials.length;
+  flip("next");
+});

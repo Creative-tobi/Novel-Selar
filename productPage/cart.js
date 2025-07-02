@@ -1,3 +1,4 @@
+document.getElementById("dem").innerHTML = "<h1>Welcome to your cart</h1>"
 const cartitems = JSON.parse(localStorage.getItem("cart")) || [];
 const cartbody = document.getElementById("cartbody");
 
@@ -15,7 +16,7 @@ if (cartitems.lenght === 0){
 
     (item, index) => `
     
-      <tr data-id="${index}">
+      <tr data-id="${index}" class="data">
         <td>${item.image}</td>
         <td>${item.title}</td>
         <td>${item.author}</td>

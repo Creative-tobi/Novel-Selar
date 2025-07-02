@@ -47,7 +47,7 @@
     line-height: 30px;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   }
-  .main button, .but button{
+  .main button, .but button, .remo-btn{
     padding: 10px 30px;
     border-radius: 12px;
     border: none;
@@ -57,7 +57,7 @@
     background-color: rgb(109, 0, 103);
     color: white;
   }
-  .pre-btn{
+  .pre-btn, .remo-btn{
     background-color: white;
     outline: 1px solid rgb(109, 0, 103);
     color: rgb(109, 0, 103);
@@ -92,7 +92,19 @@
   .desc{
     text-align: left;
   }
+  table, td, th{
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    padding: 12px;
+    border-style: ridge;
+  }
 
+
+  /* td, th{
+    border: 1px solid black;
+    padding: 12px;
+    border-collapse: collapse;
+  } */
 
   @media(max-width: 780px){
     #preview{

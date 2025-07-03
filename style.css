@@ -587,6 +587,9 @@ nav a {
  .first{
   height: 740px;
  }
+ .btn{
+  display: none;
+}
   nav img {
   width: 40px;
  } 
@@ -649,5 +652,8 @@ nav a {
   }
   .setup{
     display: block;
+  }
+  .btn{
+    display: none;
   }
 }

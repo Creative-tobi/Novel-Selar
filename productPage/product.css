@@ -127,3 +127,8 @@
     }
   
   }
+  @media(max-width: 500px){
+    .btn{
+      display: none;
+    }
+  }

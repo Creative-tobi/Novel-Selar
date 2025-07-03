@@ -121,3 +121,9 @@ nav img {
       gap: 10px;
      }
 }
+
+@media(max-width: 500px){
+  .btn{
+    display: none;
+  }
+}

@@ -397,6 +397,7 @@ nav a {
  }
  .hello {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 20px;
   line-height: 30px;

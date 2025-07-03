@@ -138,19 +138,19 @@ const testimonials = [
     text: "This site is amazing! I love the selection of free novels.",
     name: "Jane Doe",
     occupation: "Book Blogger",
-    image: `<img src="/images/steve.PNG" alt="Jane Doe">`,
+    image: `<img src="/images/steve.png" alt="Jane Doe">`,
   },
   {
     text: "Fantastic user experience. Downloading novels has never been easier.",
     name: "John Smith",
     occupation: "Freelance Writer",
-    image: `<img src="/images/trici.PNG" alt="John Smith">`,
+    image: `<img src="/images/trici.png" alt="John Smith">`,
   },
   {
     text: "Highly recommend this platform to all book lovers.",
     name: "Sarah Johnson",
     occupation: "Editor",
-    image: `<img src="/images/steve.PNG" alt="Sarah Johnson">`,
+    image: `<img src="/images/steve.png" alt="Sarah Johnson">`,
   },
 ];
 

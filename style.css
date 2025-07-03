@@ -63,8 +63,8 @@ nav{
   font-size: 50px; border: 1px solid white; border-radius: 60%; padding: 12px; 
         color: white; background-color: rgb(109, 0, 103);
         position: fixed;
-        right: 20px;
-        bottom: 100px;
+        right: 200px;
+        bottom: 50px;
 }
 
 .first {
@@ -557,6 +557,9 @@ nav a {
     /* text-align: center; */
     gap: 20px;
   }
+  .seven{
+    padding: 0;
+  }
 
   .dot, .dot2, .dot3, .dot4{
     display: none;
@@ -594,6 +597,9 @@ nav a {
   display: block;
   
 }
+.third h1{
+  padding: 0 0;
+}
 .six{
   height: 450px;
 }
@@ -601,7 +607,26 @@ nav a {
 .book{
   margin: 0 20px;
 }
-.setup{
+#setup{
   display: block;
 }
+.globe{
+  width: 250px;
+}
+.sett{
+  width: 200px;
+}
+.material-symbols-outlined{
+  right: 50px;
+}
  }
+
+
+ @media(max-width: 400px){
+  .first{
+   height: 850px;
+  }
+  .third h1{
+    padding: 0 0;
+  }
+}

@@ -72,8 +72,8 @@
     font-size: 50px; border: 1px solid white; border-radius: 60%; padding: 12px; 
           color: white; background-color: rgb(109, 0, 103);
           position: fixed;
-          right: 20px;
-          bottom: 100px;
+          right: 200px;
+          bottom: 50px;
   }
   #preview{
     margin: auto;
@@ -113,4 +113,17 @@
     nav ul{
       gap: 20px;
     }
+    .material-symbols-outlined{
+      right: 50px;
+    }
+    nav img {
+      width: 40px;
+     } 
+     nav ul{
+      gap: 10px;
+     }
+     table, td, th{
+      padding: 2px;
+    }
+  
   }

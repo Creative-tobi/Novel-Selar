@@ -17,7 +17,7 @@ if (cartitems.lenght === 0){
     (item, index) => `
     
       <tr data-id="${index}" class="data">
-        <td>${item.image}</td>
+        <td><img src=${item.image}/></td>
         <td>${item.title}</td>
         <td>${item.author}</td>
         <td><button class="remo-btn">Remove</button></td>

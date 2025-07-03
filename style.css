@@ -607,6 +607,9 @@ nav a {
   display: block;
   
 }
+#second{
+  overflow-x: hidden;
+}
 
 .tools-class{
   margin:0 0;

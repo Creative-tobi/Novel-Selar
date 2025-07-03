@@ -38,8 +38,8 @@
       document.getElementById("preview").innerHTML = `
         <div class="but"> 
           <div>
-            <p><img src=${novel.image}/></p>
-            <h2>${novel.title}</h2>
+            <img src = ${novel.image}
+            <h2 class="yoo">${novel.title}</h2>
             <p id="author">${novel.author}</p> <br> 
           </div>
           <p class="desc">${novel.desc}</p>
@@ -50,5 +50,6 @@
       document.getElementById("preview").innerHTML = "No preview available.";
     }
   </script>
+  <script src="/productPage/product.js"></script>
 </body>
 </html>

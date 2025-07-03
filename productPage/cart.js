@@ -2,6 +2,7 @@ document.getElementById("dem").innerHTML = "<h1>Welcome to your cart</h1>"
 const cartitems = JSON.parse(localStorage.getItem("cart")) || [];
 const cartbody = document.getElementById("cartbody");
 
+
 if (cartitems.lenght === 0){
   cartbody.innerHTML = `
   
@@ -13,11 +14,11 @@ if (cartitems.lenght === 0){
 } else{
   cartbody.innerHTML = cartitems 
   .map(
-
+        
     (item, index) => `
     
       <tr data-id="${index}" class="data">
-        <td><img src=${item.image}/></td>
+        <td><img src="${item.image}"/></td>
         <td>${item.title}</td>
         <td>${item.author}</td>
         <td><button class="remo-btn">Remove</button></td>

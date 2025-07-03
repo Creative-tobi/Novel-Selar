@@ -9,6 +9,9 @@
 
 }
 
+#setup{
+  display: flex;
+}
 /* Keep existing styles, then add: */
 
 .testimonial-card {
@@ -354,7 +357,7 @@ nav a {
  .eight img{
   width: 100px;
   padding: 0 50px;
-  height: 50px;
+  /* height: 50px; */
  }
  /* marquee{
   display: flex;
@@ -551,9 +554,10 @@ nav a {
     width: 400px;
   }
   .tools-class{
-    display: grid;
-    grid-template-columns: auto;
-    /* margin-left: 20%; */
+    display: flex;
+    /* grid-template-columns: auto auto; */
+    flex-wrap: wrap;
+    margin:0 0;
     /* text-align: center; */
     gap: 20px;
   }
@@ -568,6 +572,9 @@ nav a {
     margin: 0x ;
     display: block;
   }
+  /* #second{
+    display: block;
+  } */
   .part1 p{
     padding-right: 0px;
     padding: 0;
@@ -596,6 +603,12 @@ nav a {
   width: 200px;
   display: block;
   
+}
+
+.tools-class{
+  margin:0 0;
+  /* text-align: center; */
+  gap: 20px;
 }
 .third h1{
   padding: 0 0;
@@ -628,5 +641,13 @@ nav a {
   }
   .third h1{
     padding: 0 0;
+  }
+  .tools-class{
+    margin:0 0;
+    /* text-align: center; */
+    gap: 20px;
+  }
+  .setup{
+    display: block;
   }
 }

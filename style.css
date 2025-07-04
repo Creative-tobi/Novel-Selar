@@ -241,9 +241,11 @@ nav a {
   padding: 20px 0 0 0;
 }
 #support{
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 20px;
+ display: flex;
+  /*grid-template-columns: auto auto auto auto; */
+  flex-wrap: wrap;
+  /* gap: 40px; */
+  justify-content: space-around;
   margin: 20px 80px;
 }
 .pay{

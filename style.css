@@ -614,7 +614,7 @@ nav a {
 #second{
   overflow-x: hidden;
 }
-.first{
+.first, .third, .forth, .six, .seven{
   width: 100%;
 }
 

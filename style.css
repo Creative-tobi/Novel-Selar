@@ -61,7 +61,7 @@
 
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .material-symbols-outlined{
   font-size: 50px; border: 1px solid white; border-radius: 60%; padding: 12px; 
@@ -283,7 +283,7 @@ nav a {
 
 .forth{
   background-color: rgb(236, 245, 255);
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .more{
@@ -594,6 +594,9 @@ nav a {
  .btn{
   display: none;
 }
+nav{
+  gap: 0;
+}
   nav img {
   width: 40px;
  } 
@@ -614,9 +617,9 @@ nav a {
 #second{
   overflow-x: hidden;
 }
-.first, .third, .forth, .six, .seven{
+/* .first, .third, .forth, .six, .seven{
   width: 100%;
-}
+} */
 
 .tools-class{
   margin:0 0;
@@ -643,7 +646,7 @@ nav a {
   width: 200px;
 }
 .material-symbols-outlined{
-  right: 50px;
+  right: 60px;
 }
  }
 
